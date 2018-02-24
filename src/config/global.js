@@ -45,7 +45,7 @@ const config = (function(){
 			interval: 2000,  //两句话的间隔时间
 			speed: 100,   //语速
 			color1: '#ff00ff',
-			font1: '14px Arial',
+			font1: '20px Arial',
 			color2: '#f97afb',
 			color3: 'red',
 			color4: '#ffff00',
@@ -55,18 +55,12 @@ const config = (function(){
 		},
 		// type对应上面的color与font  若没有对应的 则默认为color1或font1
 		dialogue:[
-			{type:6, name:'男子', txt:'今天，相识的第'+util.GetDateDiff()+'天'},
-			{type:2, name:'女子', txt:'天还这么亮，现在放烟花也不好看。'},
-			{type:2, name:'女子', txt:'再说你那有烟花吗？'},
-			{type:6, name:'男子', txt:'我当然有烟花啦。'},
-			{type:6, name:'男子', txt:'你那有打火机吗？'},
-			{type:2, name:'女子', txt:'没有呀～'},
-			{type:6, name:'男子', txt:'那你是怎么点燃我的心的？'},
-			{type:2, name:'女子', txt:'。。。'},
-			{type:2, name:'女子', txt:'可是我的心还没有被你点燃呀。'},
-			{type:6, name:'男子', txt:'别慌，我去买个打火机先。'},
-			{type:2, name:'女子', txt:'打火机可点不燃我的心。'},
-			{type:6, name:'男子', txt:'天快黑了，我要为你点燃整片天空。'},
+			{type:6, name:'', txt:'今天，相识的第'+util.GetDateDiff()+'天'},
+			{type:2, name:'', txt:'哦好像是(oﾟ▽ﾟ)o  '},
+			{type:6, name:'', txt:'今天月亮好美啊'},
+			{type:6, name:'', txt:'给你放烟花吧'},
+			{type:2, name:'', txt:'你怎么放'},
+			{type:6, name:'', txt:'你看'},
 
 		],
 		// 阶段二

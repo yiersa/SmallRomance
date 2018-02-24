@@ -246,8 +246,13 @@ import TitleParticle from './TitleParticle'
 				this.dialogueOpt.speed = config.dialogueOpt.speed;
 				++this.dialogue.current;
 			}
-			
-			ctx.fillText(`${this.dialogue.name}：${this.dialogue.txt.slice(0, this.dialogue.current)}`, 20, 50);
+
+			if (this.dialogue.name) {//dialogue中有name字段才显示name
+                ctx.fillText(`${this.dialogue.name}：${this.dialogue.txt.slice(0, this.dialogue.current)}`, 20, 50);
+			} else {
+                ctx.fillText(`${this.dialogue.txt.slice(0, this.dialogue.current)}`, 20, 50);
+			}
+
 
 			//下一段话
 			if(this.dialogue.current >= this.dialogue.txt.length && --this.dialogueOpt.interval <= 0){
