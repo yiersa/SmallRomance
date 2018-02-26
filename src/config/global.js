@@ -58,6 +58,7 @@ const config = (function(){
 			{type:6, name:'', txt:'今天，相识的第'+util.GetDateDiff()+'天'},
 			{type:2, name:'', txt:'哦好像是(oﾟ▽ﾟ)o  '},
 			{type:6, name:'', txt:'今天月亮好美啊'},
+            {type:2, name:'', txt:'(～￣▽￣)～ '},
 			{type:6, name:'', txt:'给你放烟花吧'},
 			{type:2, name:'', txt:'你怎么放'},
 			{type:6, name:'', txt:'你看'},
